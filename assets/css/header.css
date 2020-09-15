@@ -1,5 +1,4 @@
 .header{
-    width: 100vw;
     background: var(--cinza-escuro);
     color: var(--cinza-claro);
 
@@ -33,7 +32,7 @@
 
     display: inline-block;
 
-    margin-right: 1.75rem;
+    margin: 1rem;
     margin-bottom: 1.25rem;
 
 }

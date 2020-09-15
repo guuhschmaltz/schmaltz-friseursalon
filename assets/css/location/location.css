@@ -1,0 +1,9 @@
+.location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../../img/bg-listras.jpg');
+}
+
+

@@ -13,3 +13,7 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}

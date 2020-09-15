@@ -1,0 +1,11 @@
+.location__painel{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
+    background: var(--cinza-escuro);
+    color: var(--branco);
+}
+

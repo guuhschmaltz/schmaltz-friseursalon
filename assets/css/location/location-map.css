@@ -1,0 +1,6 @@
+.location__map{
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: center;
+    max-width: 940;
+}

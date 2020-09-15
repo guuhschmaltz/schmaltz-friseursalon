@@ -1,5 +1,4 @@
 .footer{
-    width: 100vw;
     background: var(--cinza-escuro);
     color: var(--branco);
 
@@ -54,14 +53,17 @@
 @media screen and (min-width: 1024px) {
     .footer {
         flex-direction: row;
-        justify-content: space-evenly;
-
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        
         border: none;
     }
 
     .footer__logo {
         margin-bottom: 1rem;
         width: 150px;
+        order: 1;
+
     }
 
     .footer__link {
