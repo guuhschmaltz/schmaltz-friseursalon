@@ -1,0 +1,6 @@
+.banner__img {
+    background: url('../../img/bg-barbearia.jpg') no-repeat center / cover;
+    width: 100vw;
+    height: 250px;
+}
+

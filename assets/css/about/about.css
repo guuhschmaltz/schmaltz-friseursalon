@@ -1,0 +1,8 @@
+.about{
+    display: flex;
+    color: white;
+    background: black;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}

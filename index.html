@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="./assets/css/root.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-img.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-title.css">
+    <link rel="stylesheet" href="./assets/css/about/about.css">
+    <link rel="stylesheet" href="./assets/css/about/about-title.css">
+    <link rel="stylesheet" href="./assets/css/about/about-description.css">
 </head>
 <body>
     <header class="header container">
@@ -23,7 +29,28 @@
         </nav>
     </header>
     <main>
-        
+        <section class="banner">
+            <div class="banner__img"></div>
+            <h2 class="banner__title">A arte mora aqui!</h2>
+        </section>
+        <section class="about">
+            <h3 class="about__title">Sobre</h3>
+            <p class="about__description">
+                Com o propósito de promover um atendimento com excelência e qualidade resgatando a virilidade masculina, Gustavo Schmaltz criou a <strong>Schmaltz Friseursalon</strong>, a melhor barbearia do Brasil.
+                Um lugar agradável direcionado aos homens servindo serviços tradicionais como cortes de cabelo, barba e bigode
+            </p>
+        </section>
+        <section class="location">
+            <h4 class="location__title">Venha nos visitar</h3>
+            <p class="location__description">Nosso estabelecimento estará de portas abertas, estamos a sua espera</p>
+            <div class="location__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.2117745210517!2d-46.91327788497747!3d-23.59673676878486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0750470278d5%3A0x2fbaa02c9a0228e7!2sR.%20da%20Fraternidade%2C%20197%20-%20Jardim%20Cotia%2C%20Cotia%20-%20SP%2C%2006703-460!5e0!3m2!1spt-BR!2sbr!4v1600131405964!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+             </div>
+        </section>
+        <section class="app">
+            <h5 class="app__title">Baixe nosso aplicativo</h3>
+            <p class="app__description">Agende seu horário ou entre em contato pelo WhatsApp</p>
+        </section>
     </main>
     <footer class="footer container">
         <img src="./assets/img/barber.png" alt="Logo da Barbearia" class="footer__logo">
@@ -32,12 +59,8 @@
             <li><a href="#" class="footer__midia"><img src="./assets/img/instagram.png" alt="Ícone do Instagram"></a></li>
         </ul>
         <nav>
-            <ul class="footer__nav">
-                <li class="footer__link"><a href="#">Home</a></li>
-                <li class="footer__link"><a href="#">Serviços</a></li>
-                <li class="footer__link"><a href="#">Contato</a></li>
-            </ul>
         </nav>
+        <p class="footer__copyright"><small>&copy; Copyright Schmaltz Friseursalon | Barber Shop</small></p>
     </footer>
     <script src="/assets/js/main.js"></script>
 </body>
