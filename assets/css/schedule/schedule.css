@@ -1,0 +1,9 @@
+.schedule{
+    background: var(--cinza-escuro);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,6 +1,7 @@
 .location__map{
     margin-top: 1.6rem;
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
+    height: 340px;
     display: flex;
-    justify-content: center;
-    max-width: 940;
 }

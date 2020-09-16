@@ -1,0 +1,24 @@
+.schedule__table table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+
+.schedule__table th{
+    background: white;
+    color: black;
+}
+
+.schedule__table {
+    margin: 2.2rem;
+    font-size: .8rem;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .schedule__table {
+        font-size: 1rem;
+    }
+}

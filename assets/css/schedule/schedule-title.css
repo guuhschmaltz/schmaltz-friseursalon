@@ -1,0 +1,20 @@
+.schedule__title{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2.2rem;
+    font-family: var(--fonte-titulo);
+    }
+
+@media screen and (min-width: 0) {
+    .schedule__title {
+        font-size: 1.6rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .schedule__title {
+        font-size: 2.2rem;
+    }
+}
+
+
+    

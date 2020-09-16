@@ -1,7 +1,7 @@
 .about{
     display: flex;
     color: white;
-    background: black;
+    background: var(--cinza-escuro);
     flex-direction: column;
     flex-wrap: wrap;
 

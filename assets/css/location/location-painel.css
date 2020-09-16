@@ -1,4 +1,5 @@
 .location__painel{
+    width: 100%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;

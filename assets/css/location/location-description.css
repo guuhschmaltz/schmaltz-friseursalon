@@ -1,6 +1,13 @@
 .location__description{
-    margin-top: 1.6rem;
+    margin-top: 1rem;
     margin-left: 2.2rem;
     margin-right: 2.2rem;
     margin-bottom: 2.2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+.location__description{
+    text-align: initial;
+}
 }
