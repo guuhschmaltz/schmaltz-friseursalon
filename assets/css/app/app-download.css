@@ -1,0 +1,27 @@
+.app__download {
+    margin: 1rem;
+    background: var(--cinza-escuro);
+    color: var(--cinza-claro);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.4rem;
+    width: 12rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.app__download img{
+    display: flex;
+    width: 4.2rem;
+    height: 4.2rem;
+    margin: 1rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .app__download {
+        margin: 2rem 1rem;
+    }
+}
+

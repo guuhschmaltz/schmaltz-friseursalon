@@ -1,0 +1,6 @@
+.app{
+    display: flex;
+    color: var(--cinza-escuro);
+    background: var(--branco);
+    flex-direction: column;
+}
