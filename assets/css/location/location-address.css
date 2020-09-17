@@ -2,11 +2,4 @@
     margin-top: 1.6rem;
     margin-left: 2.2rem;
     margin-right: 2.2rem;
-    text-align: center;
 }
-
-@media screen and (min-width: 1024px) {
-    .location__address{
-        text-align: initial;
-    }
-    }
