@@ -3,7 +3,7 @@
     font-family: var(--fonte-titulo);
     position: absolute;
     left: 50%;
-    text-shadow: 4px 4px 4px #000000;
+    text-shadow: 4px 4px 4px var(--preto);
     top: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
