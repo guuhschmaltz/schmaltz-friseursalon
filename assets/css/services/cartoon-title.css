@@ -1,0 +1,23 @@
+.cartoons__title{
+    display: flex;
+    align-items: initial;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: var(--fonte-titulo);
+    padding: .75rem 0;
+    
+    }
+
+@media screen and (min-width: 0) {
+    .cartoons__title {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cartoons_title {
+        font-size: 2.2rem;
+    }
+}
+
+
+    

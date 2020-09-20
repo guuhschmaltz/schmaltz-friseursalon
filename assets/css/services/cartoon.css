@@ -1,0 +1,24 @@
+@media screen and (min-width: 0) {
+    .cartoons {
+        display: flex;
+        flex-direction: column;
+        color: var(--cinza-escuro);
+        background-color: var(--branco);
+        border-radius: 5px;
+        box-shadow: 0 2px 10px 2px #00000010;
+    
+        margin: 2.5rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .cartoons {
+        display: flex;
+        flex-direction: column;
+        color: var(--cinza-escuro);
+        background-color: var(--branco);
+        border-radius: 5px;
+        box-shadow: 0 2px 10px 2px #00000010;
+    
+        margin: 2.5rem;
+    }
+}

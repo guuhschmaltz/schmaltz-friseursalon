@@ -1,0 +1,5 @@
+.services__cartoons{
+    display: flex;
+    flex-direction: row;
+}
+

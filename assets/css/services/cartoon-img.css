@@ -1,0 +1,7 @@
+.cartoons__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    padding: 2rem;
+}

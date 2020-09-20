@@ -1,0 +1,13 @@
+.cartoons__button {
+    font-size: 1rem;
+    display: block;
+    font-weight: 700;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: var(--preto);
+    color: var(--cinza-claro);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

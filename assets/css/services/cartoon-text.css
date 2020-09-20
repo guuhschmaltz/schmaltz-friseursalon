@@ -1,0 +1,7 @@
+.cartoons__text {
+    display: flex;
+    color: var(--fonte-cinza);
+    justify-content: center;
+}
+
+
