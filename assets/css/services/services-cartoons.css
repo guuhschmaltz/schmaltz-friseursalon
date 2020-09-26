@@ -1,5 +1,11 @@
 .services__cartoons{
-    display: flex;
-    flex-direction: row;
+    display: block;
 }
 
+@media screen and (min-width: 1024px) {
+    .services__cartoons {
+        display: flex;
+        flex-direction: row;
+    }
+
+}

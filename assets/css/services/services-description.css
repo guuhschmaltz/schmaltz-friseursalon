@@ -3,3 +3,8 @@
     margin-left: 2.2rem;
     margin-right: 2.2rem;
 }
+
+.services__description + .services__description{
+    margin-top: 1rem;
+}
+

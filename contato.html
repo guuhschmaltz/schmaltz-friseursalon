@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="./assets/css/root.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/form/form.css">
+    <link rel="stylesheet" href="./assets/css/form/form-input.css">
+    <link rel="stylesheet" href="./assets/css/form/form-label.css">
+    <link rel="stylesheet" href="./assets/css/form/form-textarea.css">
+    <link rel="stylesheet" href="./assets/css/form/form-panel.css">
+    <link rel="stylesheet" href="./assets/css/form/form-title.css">
+    <link rel="stylesheet" href="./assets/css/form/form-button.css">
 </head>
 <body>
     <header class="header container">
@@ -23,6 +30,24 @@
         </nav>
     </header>
     <main>
+        <section class="form container">
+        <form class="form__panel container">
+            <h2 class="form__title">Entre em contato conosco</h2>
+            <label class="form__label" for="name" >Nome completo</label>
+            <input class="form__input" type="text" id="name" required>
+
+            <label class="form__label" for="email" >Email</label>
+            <input class="form__input" type="email" id="email" required placeholder="seuemail@dominio.com">
+
+            <label class="form__label" for="tel">Telefone</label>
+            <input class="form__input" type="tel" id="tel" required placeholder="(XX) XXXXX-XXXX">
+
+            <label class="form__label" for="msg">Mensagem</label>
+            <textarea class="form__textarea"  id="msg" required></textarea>
+
+            <button class="form__button" type="submit">Enviar Formulário</button>
+        </form>
+        </section>
     </main>
     <footer class="footer container">
         <img src="./assets/img/barber.png" alt="Logo da Barbearia" class="footer__logo">

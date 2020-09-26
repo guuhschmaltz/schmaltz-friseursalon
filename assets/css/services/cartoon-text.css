@@ -1,4 +1,5 @@
 .cartoons__text {
+    font-weight: 700;
     display: flex;
     color: var(--fonte-cinza);
     justify-content: center;

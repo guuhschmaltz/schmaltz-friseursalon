@@ -1,4 +1,4 @@
-.location__panel{
+.form__panel{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,4 +9,3 @@
     background: var(--cinza-escuro);
     color: var(--branco);
 }
-

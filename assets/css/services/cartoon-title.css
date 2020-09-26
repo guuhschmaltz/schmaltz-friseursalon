@@ -1,8 +1,12 @@
 .cartoons__title{
     display: flex;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background-color: var(--cinza-medio);
     align-items: initial;
     justify-content: center;
     text-transform: uppercase;
+    font-weight: 700;
     font-family: var(--fonte-titulo);
     padding: .75rem 0;
     

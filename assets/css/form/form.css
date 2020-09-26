@@ -1,0 +1,7 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('../../img/bg-listras.jpg');
+}
+
