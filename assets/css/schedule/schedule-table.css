@@ -6,6 +6,7 @@
 .schedule__table th{
     background: white;
     color: black;
+    font-weight: 700;
 }
 
 .schedule__table {

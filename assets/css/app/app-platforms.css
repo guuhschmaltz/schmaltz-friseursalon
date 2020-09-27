@@ -2,13 +2,14 @@
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: .8px;
     margin-bottom: 2.2rem;
     flex-direction: column;
     justify-content: center;
     background: var(--branco);
     color: var(--cinza-escuro);
 }
+
 
 @media screen and (min-width: 768px) {
     .app__platforms {

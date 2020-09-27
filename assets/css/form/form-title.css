@@ -4,6 +4,7 @@
     margin-top: 2.2rem;
     margin-bottom: 2.2rem;
     font-family: var(--fonte-titulo);
+    font-weight: 600;
     }
 
 @media screen and (min-width: 0) {

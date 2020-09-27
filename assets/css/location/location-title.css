@@ -3,6 +3,7 @@ text-transform: uppercase;
 text-align: center;
 margin-top: 2.2rem;
 font-family: var(--fonte-titulo);
+font-weight: 600;
 }
 
 

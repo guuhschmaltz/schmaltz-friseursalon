@@ -11,3 +11,10 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.cartoons__button:hover{
+    transition: .2s;
+    background-color: var(--cinza-medio);
+    color: var(--preto);
+    font-size: 1.2rem;
+}

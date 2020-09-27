@@ -12,7 +12,10 @@
     --fonte-titulo: 'Fjalla One', sans-serif;
 }
 
-body {
+body,
+input,
+button,
+textarea {
     font-family: 'Oxygen', sans-serif;
 }
 
